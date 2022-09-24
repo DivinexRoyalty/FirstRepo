@@ -1,0 +1,18 @@
+start = root
+root = element root {NewPage, attrbt}
+NewPage = element NewPage {lb+, L, verb, DOC}
+L = attribute L {xsd:integer | "start"}
+attrbt = element attrbt {elemnt, total}
+elemnt = attribute elemnt { "UNKNOWN TEXT"| "STAMP"| "Start/Top"|"End/Bottom"| text}
+total = attribute total {xsd:integer| "start"}
+rhyme = element rhyme {verb}
+DOC = element DOC {text}
+
+verb = attribute verb {xsd:integer}
+lb = element lb {mixed{(author, title, rhyme, attrbt}*}}
+author = element author {text}
+title = element title {text}
+
+
+
+
