@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <!-- L = Line + # of line -->
+    <!-- DOC = Date of Creation-->
+    <!-- I included the transript pages in order to keep the document close to the original piece -->
+    <!-- L=START signifies the start/first line of the poem -->
+    <!-- L=END signifies the end/last line of the poem -->
+    <NewPage> Transcript Page 1 of 2 <title>"Ballad of Booker T.,"</title> by <author>Langston
+            Hughes</author>, <DOC>June 1, 1941</DOC>
+        <title>BALLAD OF BOOKER T.</title> by <author>Langston Hughes</author><lb L="start"/>Booker
+        T. <lb L="1"/>Was a practical <rhyme verb="1">man.</rhyme> <lb L="2"/>He said, Till the soil <lb L="3"/>And learn
+        from the <rhyme verb="1">land.</rhyme> <lb L="4"/> Let down your bucket <lb L="5"/> Where you <rhyme verb="2">are.</rhyme><!-- Lines "4" and "5" are paying homage to Washingtons speech, 1895 speech in Atlanta  -->
+        <lb L="6"
+        /><!-- the original document of this poem has a stamp from The Library of Congress on it. The top of this stamp starts at this line  -->
+        Your fate is here <lb L="7"/> And not <rhyme verb="2">afar.</rhyme> <lb L="8"/> To help yourself <lb L="9"
+        /><!-- the original document of this poem has a stamp from The Library of Congress on it. The bottom of this stamp starts at this line -->
+        And your fellow <rhyme verb="3">man</rhyme>, <lb L="10"/> Train your head, <lb L="11"/> Your heart, and your <rhyme verb="3">hand.</rhyme><!-- on the original document, "and your hand" is underlined. Curious as to why? -->
+        <lb L="12"/> For smartness alone's <lb L="13"/> Surely not <rhyme verb="4">meet</rhyme>— <lb L="14"/> If you haven't
+        at the same time <lb L="15"/> Got something to <rhyme verb="4">eat.</rhyme> <lb L="16"/> Thus at Tuskegee <lb L="17"
+        /> He built a <rhyme verb="6">school</rhyme> <lb L="18"/> With book-learning there <lb L="19"/> And the workman's
+        <rhyme verb="6">tool.</rhyme> <lb L="20"/> He started out <lb L="21"/> In a simple way— <lb L="22"/> For yesterday
+            <lb L="23"/> Was not today.<!-- on the original document, "not" is also underlined. Is this writing style used for emphasis? In addition, this line he references 'in Alabama in 85' speaking on 
+                how the South was a dangerous place in the late 19th century to protest against white supremecy and advocate 
+                \for African American rights (these underlines are also seen in other works by Hughes -->
+        <lb L="24"/> Sometimes he had <lb L="25"/> Compromise in his <rhyme verb="5">talk</rhyme>— <lb L="26"/> For a man
+        must crawl <lb L="27"/>Before he can <rhyme verb="5">walk</rhyme>— <lb L="28"/> And in Alabama in '85 <lb L="29"/> A
+        joker was lucky <lb L="30"/> To be alive. <lb L="31"/> But Booker T. <lb L="32"/> Was
+        nobody's <rhyme verb="6">fool:</rhyme> <lb L="33"/> You may carve a dream <lb L="34"/> With an humble <rhyme verb="6">tool.</rhyme> <lb
+            L="35"/> The tallest tower <lb L="36"/>Can tumble <rhyme verb="7">down</rhyme> <lb L="37"/> If it be not rooted
+            <lb L="38"/> In solid <rhyme verb="7">ground.</rhyme> <lb L="39"/> So, being a far-seeing</NewPage>
+    <NewPage> Transcript Page 2 of 2 <lb L="40"/> Education and Outreach Division <lb L="41"
+        />Practical man, <lb L="42"/>He said, Train your head, <lb L="43"/>Your heart, and your
+        hand. <!-- and your hand is underlined once again. signs of emphasis and repetition --><lb
+            L="44"/>Your fate is here <lb L="45"/>And not <rhyme verb="2">afar</rhyme>, <lb L="46"/>So let down your bucket
+            <lb L="end"/> Where you <rhyme verb="2">are.</rhyme> <!-- THIS END SECTION OF THE POEM IS WRITTEN OVER BY THE SIGNITURE OF LANGSTON HUGHES (pretty printed at the end, however I kept it this way because of personal style) -->
+        <lb/> Final Draft, 
+        <lb/> Hollow Hills Farm,
+        <lb/> Monterey, California, 
+        <lb/> June 1, 1941. </NewPage>
+
+    <!-- bottom left corner of the original document. The above text is blurred out however the bottom text reads "[te 7059]". What is this? What is the above text?  -->
+    <!-- IN TOTAL= 48 lines of poem -->
+</root>

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="../../Downloads/RELAXNGASIGN.2" type="application/relax-ng-compact-syntax"?>
 <root>
 
     <!-- L = Line + # of line -->
@@ -29,15 +27,15 @@
         <lb L="5"> Where you <rhyme verb="2">are.</rhyme></lb>
         <!-- Lines "4" and "5" are paying homage to Washingtons speech, 1895 speech in Atlanta  -->
         <lb L="6">
-            <atrbt elemnt="STAMP">
-                <atrbt elemnt="Start/Top"> RED LIBRARY OF CONGRESS STAMP</atrbt> Your fate is
+            <atrbt element="STAMP">
+                <atrbt element="Start/Top"> RED LIBRARY OF CONGRESS STAMP</atrbt> Your fate is
                 here</atrbt>
         </lb>
         <lb L="7"> And not <rhyme verb="2">afar.</rhyme></lb>
         <lb L="8"> To help yourself</lb>
         <lb L="9">
-            <atrbt elemnt="STAMP">
-                <atrbt elemnt="End/Bottom"> RED LIBRARY OF CONGRESS STAMP</atrbt> And your fellow
+            <atrbt element="STAMP">
+                <atrbt element="End/Bottom"> RED LIBRARY OF CONGRESS STAMP</atrbt> And your fellow
                     <rhyme verb="3">man,</rhyme></atrbt>
         </lb>
         <lb L="10">Train your head,</lb>
@@ -96,7 +94,7 @@
         <lb> June 1, 1941.</lb>
     </NewPage>
 
-    <atrbt elemnt="UNKNOWN TEXT">[te 7059]</atrbt>
+    <atrbt element="UNKNOWN TEXT">[te 7059]</atrbt>
     <!-- located in the bottom left corner. What does this mean/what is the blurry above text?  -->
     <atrbt total="48">Lines of poem</atrbt>
 </root>
