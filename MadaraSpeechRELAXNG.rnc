@@ -1,0 +1,9 @@
+start = root
+root = element root {(popln, lb, atrbt, author, text)*}
+popln = element popln {lb,L, text}
+lb = element lb {L,text}
+L = attribute L {xsd:integer}
+atrbt = element atrbt {total, text}
+total =attribute total {xsd:integer}
+author = element author {text}
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="MadaraSpeechRELAXNG.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <!-- L = Line + # of line -->
+    <!-- popln = popular line. The first line of this speech is highly recognized by anime fans -->
+    <!--The “Wake Up to Reality” Madara speech appears in the 344th episode of the 
+        Naruto: Shippūden anime called “Obito and Madara.”. 
+        In this episode, we see the first encounter between Madara and Obito, 
+        right after he was saved from under the boulders by the then old Madara.  -->
+    <popln><lb L="1">Wake up to reality!</lb></popln>
+    <lb L="2">Nothing ever goes as planned in this accursed world.</lb>
+    <lb L="3">The longer you live,</lb>
+    <lb L="4">the more you realize that the only things that truly exist in this reality are merely
+        pain, suffering and futility.</lb>
+    <lb L="5">Listen, everywhere you look in this world,</lb>
+    <lb L="6">wherever there is light,</lb>
+    <lb L="7">there will always be shadows to be found as well.</lb>
+    <lb L="8">As long as there is a concept of victors, the vanquished will also exist.</lb>
+    <lb L="9">The selfish intent of wanting to preserve peace, initiates war and hatred is born in
+        order to protect love.</lb>
+    <lb L="10">There are nexuses causal relationships that cannot be separated.</lb>
+    <lb L="11">By <author>Madara Uchiha</author></lb>
+    <atrbt total="11">Lines of speech</atrbt>
+</root>
