@@ -1,0 +1,22 @@
+PROMPT 2
+give me a list of different shades of blue
+Here are a few shades of blue:
+1. Baby blue
+2. Sky blue
+3. Steel blue
+4. Navy blue
+5. Royal blue
+6. Teal
+7. Turquoise
+8. Dusty blue
+9. Powder blue
+10. Baby powder blue
+11. Cornflower blue
+12. Baby powder blue
+13. Periwinkle
+14. Light blue
+15. Medium blue
+16. Dark blue
+This is not a comprehensive list, and there are many other shades and variations of blue that exist.
+Top of Form
+
