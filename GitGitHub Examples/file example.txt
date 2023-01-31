@@ -1,0 +1,4 @@
+This is my text file that im using for my Git/GitHub Test part 1. It is a very short text file and I only wanted to write a few sentences.
+
+Ex:
+HOW MUCH WOOD WOULD A WOODCHUCK CHUCK IF A WOODCHUCK COULD CHUCK WOOD
