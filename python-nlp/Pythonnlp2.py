@@ -17,3 +17,37 @@ for file in os.listdir(CollPath):
         filepath = f"{CollPath}/{file}"
         print(filepath)
         #readTextFiles(filepath)
+
+
+def readTextFiles(filepath):
+    with open(filepath, 'r', encoding='utf8') as f:
+        readFile = f.read()
+        # print(readFile)
+        stringFile = str(readFile)
+        lengthFile = len(readFile)
+        print(lengthFile)
+
+        tokens = nlp(stringFile)
+        # playing with vectors here
+        vectors = tokens.vector
+
+        wordOfInterest = nlp(u'cole')
+        highSimilarityDict = {}
+        for token in tokens:
+            if (token and token.vector_norm):
+                if wordOfInterest.similarity(token) > .3:
+                    highSimilarityDict[token] = wordOfInterest.similarity(token)
+                    print("This is a dictionary of words most similar to the word " + wordOfInterest.text + " in this file.")
+
+                    highSimilarityReduced = {}
+                    for key, value in highSimilarityDict.items():
+                        if value not in highSimilarityReduced.values():
+                            highSimilarityReduced[key] = value
+                    print(highSimilarityReduced)
+                    print(len(highSimilarityReduced.items()), " vs ", len(highSimilarityDict.items()))
+
+for file in os.listdir(CollPath):
+    if file.endswith(".txt"):
+        filepath = f"{CollPath}/{file}"
+        print(filepath)
+        readTextFiles(filepath)
