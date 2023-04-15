@@ -1,0 +1,17 @@
+start = xml
+xml = element xml {Doc, Process}
+Doc = element Doc {mixed{(Title | author | Date | ln)*}}
+
+Title = element Title {level, text}
+level = attribute level {text}
+author = element author {text}
+Date = element Date {text}
+ln = element ln {text | drts}
+
+Process = element Process {mixed {(ingr | msrmt | drts | ln)*}}
+ingr = element ingr {text}
+msrmt = element msrmt {text*}
+drts = element drts {type*, text}
+type = attribute type {text}
+
+

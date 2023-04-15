@@ -1,0 +1,6 @@
+1. (Find) & (Replace) &amp
+2. (Find) ^.+ (Replace) <movie>\0</movie>
+3. (Find) (<movie>)(.+?)\t (Replace) \1<title>\2</title>
+4. (Find) (</title>)(.+?)\t (Replace)\1<date>\2</date>
+5. (Find) (</date>)(.+?)\t (Replace) \1<place>\2</place>
+6. (Find) (</place>)(.+?) (Replace) \1<runtime>\2</runtime> 
